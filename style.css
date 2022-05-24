@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;   
 }
+
+.first-screen{
+    background-image: url(./pics/back.png);
+    height: 800px;
+    display: flex;
+}
+
+.logo{
+    width: 140px;
+    height: 58px;
+    margin-top: 11px;
+}
+
+.first-screen-container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    width: 1920px;
+    height: 80px;
+    background-color: rgba(0, 91, 193, .6);
+}
+
+
+.nav{
+    margin: auto;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 28px;
+}
