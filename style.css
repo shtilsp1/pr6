@@ -202,3 +202,59 @@
     width: 530px;
     height: 390px;
 }
+
+/*catalog*/
+.catalog{
+    margin-top: 150px;
+}
+
+.catalog-links{
+    margin-left: 448px;
+    margin-top: 70px;
+}
+.catalog-link{
+    color: #343434;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-left: 47px;
+    text-decoration: none;
+}
+
+.catalog-link1{
+    color: #343434;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-left: 47px;
+    text-decoration: none;
+}
+
+.catalog-link:hover{
+    color: #005BC1;
+    text-decoration: underline;
+}
+.catalog-link1:hover{
+    color: #005BC1;
+    text-decoration: underline;
+}
+
+.catalog-images{
+    display: flex;
+    margin-top: 50px;
+}
+
+.catalog-img1{
+    width: 350px;
+    height: 300px;
+}
+
+.catalog-img2{
+    width: 350px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.catalog-img2{
+    width: 350px;
+    height: 300px;
+}
