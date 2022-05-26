@@ -38,13 +38,6 @@ a{
     align-self: center;
 }
 
-.nav-link{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    color: #ffff;
-    margin-left: 28px;
-}
 
 .square{
     width: 444px;
@@ -109,8 +102,6 @@ a{
     align-items: center;
 }
 
-.lines{
-}
 
 .line1{
     border-top: 3px solid #005BC1;
@@ -502,5 +493,72 @@ a{
 .nav__item:hover {
     transform: scale(1.25);
     font-weight: bold;
+}
+
+.header__main {
+    max-width: 43%;
+    margin-left: 405px;
+}
+
+.main__bg {
+    position: relative;
+    width: 444px;
+    height: 720px;
+    background-color: rgba(0, 91, 193, 0.6);
+}
+
+.main__content {
+    position: absolute;
+    z-index: 1;
+    left: 595px;
+    top: 282px;
+}
+
+.header__title {
+    width: 75%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.main__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 60%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 10px 50px;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #005BC1;
+}
+.btn__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
 
