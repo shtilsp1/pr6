@@ -8,6 +8,11 @@ a{
     text-decoration: none;
 }
 
+.container-all{
+    margin: auto;
+    max-width: 1110px;
+}
+
 .first-screen{
     background-image: url(./img/bk.png);
     margin: 0 auto;
@@ -87,6 +92,8 @@ a{
 }
 
 /*slider*/
+
+
 .slider {
     max-width: 1110px;
     margin: 0 auto;
@@ -173,7 +180,15 @@ a{
     color: #343434;
 }
 
+
 /*catalog*/
+
+
+.catalog-container{
+    max-width: 1110px;
+    margin: auto;
+}
+
 .catalog {
     margin-bottom: 150px;
 }
@@ -259,7 +274,16 @@ a{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+
 /*rent*/
+
+
+.rent-container{
+    max-width: 1110px;
+    margin: auto;
+}
+
 .rent {
     margin-bottom: 100px;
 }
@@ -338,7 +362,20 @@ a{
     color: #343434;
     margin-bottom: 20px;
 }
+
+
 /*news*/
+
+
+.news-container{
+    max-width: 1110px;
+    margin: auto;
+}
+
+.news-links{
+    color: #343434;
+}
+
 .all-news{
     padding-top: 15px;
     padding-bottom: 14px;
@@ -505,10 +542,8 @@ a{
     font-weight: 600;
     font-size: 24px;
     line-height: 120%;
-    /* or 29px */
     text-align: center;
     letter-spacing: 0.03em;
-    /* white */
     color: #FFFFFF;
 }
 
@@ -530,8 +565,6 @@ a{
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
-    /* white */
     color: #FFFFFF;
 }
 
@@ -599,11 +632,43 @@ a{
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: 0.05em;
 
     color: #FFFFFF;
 }
 
+
+/*footer*/
+
+
+.footer{
+    background-color: #005BC1;
+}
+
+.footer-top{
+    border-bottom: 2px solid white;
+    padding-bottom: 29px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.phone-number{
+    font-family: 'Oswald';
+    font-size: 18px;
+    color: #fff;
+}
+
+.adress{
+    font-family: 'Oswald';
+    font-size: 18px;
+    color: #fff;
+    margin-left: 128px;
+    margin-right: 123px;
+}
+
+.soup{
+    font-family: 'Oswald';
+    font-size: 18px;
+    color: #fff;
+}
