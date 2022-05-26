@@ -8,11 +8,6 @@ a{
     text-decoration: none;
 }
 
-.container-all{
-    margin: auto;
-    max-width: 1110px;
-}
-
 .first-screen{
     background-image: url(./img/bk.png);
     margin: 0 auto;
@@ -386,6 +381,14 @@ a{
     cursor: pointer;
 }
 
+.news-h1{
+    font-size: 30px;
+    font-family: 'Oswald';
+    color: #343434;
+    letter-spacing: 5%;
+    font-weight: 300;
+}
+
 .all-news-text{
     font-family: 'Open Sans', sans-serif;
     color: #ffff;
@@ -401,6 +404,11 @@ a{
 
 .news-main{
     display: flex;
+}
+
+.news-decor{
+    display: flex;
+    align-items: center;
 }
 
 .item1{
@@ -732,4 +740,99 @@ a{
     font-size: 14px;
     font-family: 'Open Sans';
     font-weight: 100;
+}
+
+
+/*mobile*/
+@media screen and (max-width: 350px){
+    .first-screen{
+        width: 1310px;
+        object-fit: contain;
+    }
+    .nav{
+        margin-left: -100px;
+    }
+    .main__content{
+        left: 300px;
+    }
+    .main__bg{
+        margin-left: -300px;
+    }
+    .main__text{
+        width: 100%;
+    }
+    .header__title{
+        width: 100%;
+    }
+/*slider*/
+    .slider{
+        width: 1310px;
+        margin-left: 25px;
+    }
+/*catalog*/
+    .catalog{
+        width: 1110px;
+        margin-left: 25px;
+    }
+/*rent*/
+    .rent{
+        width: 1310px;
+        margin-left: -75px;
+    }
+/*news*/
+    .news{
+        width: 1310px;
+        margin-left: -75px;
+    }
+    .footer{
+        width: 1310px;
+        margin-left: -75px;
+    }
+}
+
+/*tablet*/
+@media screen and (max-width: 768px){
+    .first-screen{
+        width: 1310px;
+        object-fit: contain;
+    }
+    .nav{
+        margin-left: -100px;
+    }
+    .main__content{
+        left: 300px;
+    }
+    .main__bg{
+        margin-left: -300px;
+    }
+    .main__text{
+        width: 100%;
+    }
+    .header__title{
+        width: 100%;
+    }
+/*slider*/
+    .slider{
+        width: 1310px;
+        margin-left: 25px;
+    }
+/*catalog*/
+    .catalog{
+        width: 1110px;
+        margin-left: 25px;
+    }
+/*rent*/
+    .rent{
+        width: 1310px;
+        margin-left: -75px;
+    }
+/*news*/
+    .news{
+        width: 1310px;
+        margin-left: -75px;
+    }
+    .footer{
+        width: 1310px;
+        margin-left: -75px;
+    }
 }
