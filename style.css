@@ -767,6 +767,7 @@ a{
 /*slider*/
     .slider{
         width: 1310px;
+        margin-left: 75px;
     }
 /*catalog*/
     .catalog{
