@@ -772,12 +772,10 @@ a{
 /*catalog*/
     .catalog{
         width: 1110px;
-        margin-left: 100px;
     }
 /*rent*/
     .rent{
         width: 1310px;
-        margin-left: 75px;
     }
 /*news*/
     .news{
@@ -824,15 +822,12 @@ a{
 /*rent*/
     .rent{
         width: 1310px;
-        margin-left: 75px;
     }
 /*news*/
     .news{
         width: 1310px;
-        margin-left: 75px;
     }
     .footer{
         width: 1310px;
-        margin-left: 75px;
     }
 }
